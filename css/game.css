@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'VT323';
+    font-size: xx-large;
+}
+
+.all
+{
+    width: 100vw;
+    height: 11.5vh;
+    margin-bottom: 3em;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7em;
+}
+
+.brand
+{
+    margin-top: -10px;
+}
+
+.button
+{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2em;
+}
+
+.canvas
+{
+    margin-top: 10px;
+    margin-left: 7em;
+}
+
+.main
+{
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.menu
+{
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+.menu .active
+{
+    color: black;
+}
+
+.menu :active
+{
+    color:coral
+}
+
+.menu a
+{
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.menu a:hover
+{
+    background-color: #FFFF33;
+    transition: ease-in-out .5s;
+}
+
+.menu li
+{
+    list-style: none;
+}
+
+.info
+{
+    margin-top: 2em;
+    margin-left: 2em;
+    width: 90vw;
+    height: 20vh;
+    align-content: center;
+}
